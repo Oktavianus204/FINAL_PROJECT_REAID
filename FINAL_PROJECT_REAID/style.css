@@ -1,0 +1,59 @@
+/* Sidebar */
+section[data-testid='stSidebar'] {
+  background-color: #032c1c;
+  border-right: 2px solid #ddd;
+}
+
+/* Card Text */
+.card h4 {
+  margin-top: 0;
+  font-size: 16px;
+  color: white;
+}
+
+.card p {
+  font-size: 14px;
+  color: white;
+}
+
+/* Tombol */
+button {
+  background-color: #4caf50 !important;
+  color: white !important;
+  border-radius: 8px !important;
+  border: none !important;
+  transition: all 0.3s ease !important;
+}
+
+button:hover {
+  background-color: #45a049 !important;
+}
+
+/* styles.css */
+.novel-card {
+  background-color: #ff5a00ff; /* Cokelat */
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  text-align: center;
+  height: 100%;
+}
+.container-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+
+.novel-card:hover {
+  background-color: #5d4037; /* Cokelat */
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  text-align: center;
+  height: 100%;
+}
